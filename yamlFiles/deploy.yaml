@@ -13,8 +13,8 @@ spec:
         app: binarycalculator
     spec:
       containers:
-        - image: ~QualityLab3_1/BinaryCalculatorWebapp/binarycalculator
+        - image: northamerica-northeast2-docker.pkg.dev/august-apricot-452504-f6/sofe3980u/binarycalculator
           name: binarycalculator
           ports:
             - containerPort: 8080
-              name: binarycalculator
+              name: binarycalc
